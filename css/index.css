@@ -13,3 +13,8 @@ a {
 .padding-row {
   padding: 30px !important;
 }
+
+.reverse-color{
+  -webkit-filter: invert(1);
+   filter: invert(1);
+}
