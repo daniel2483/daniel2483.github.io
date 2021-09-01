@@ -9,3 +9,7 @@ a {
 .small-text {
   font-size: small;
 }
+
+.padding-row {
+  padding: 10px !important;
+}
