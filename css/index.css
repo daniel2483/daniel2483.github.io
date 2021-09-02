@@ -21,5 +21,9 @@ a {
 
 .margin-row {
   margin: 15px 0px 0px 0px !important;
+} 
+
+img {
+  margin: 10px;
 }
 
