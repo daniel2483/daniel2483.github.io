@@ -20,6 +20,6 @@ a {
 }
 
 .margin-row {
-  margin: 15px;
+  margin: 15px !important;
 }
 
