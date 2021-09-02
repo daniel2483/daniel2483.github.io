@@ -24,6 +24,6 @@ a {
 } 
 
 img {
-  margin: 10px;
+  margin: 10px !important;
 }
 
