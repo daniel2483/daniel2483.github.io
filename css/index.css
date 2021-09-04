@@ -28,11 +28,11 @@ img {
 }
 
 .code-lines {
-  background-color: lightgrey !important;
   font-family: 'Courier New' !important;
 }
 
 .div-margin {
-  margin: 5px;
+  background-color: lightgrey !important;
+  margin: 25px !important;
 }
 
