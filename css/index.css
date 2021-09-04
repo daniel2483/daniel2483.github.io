@@ -27,3 +27,9 @@ img {
   margin: 10px !important;
 }
 
+.code-lines {
+  background-color: grey;
+  font-family: 'Courier New';
+  margin: 5px;
+}
+
