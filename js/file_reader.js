@@ -5,3 +5,6 @@ fetch('https://github.com/daniel2483/PythonProjects/blob/master/Examples/calcula
   	// Do something with your data
   	console.log(data);
   });
+
+
+console.log("This is a test");
