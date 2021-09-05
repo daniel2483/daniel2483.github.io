@@ -43,7 +43,7 @@ img {
 }
 
 .index-style {
-  width: 15% !important;
+  width: 300px !important;
   border: dotted 3px black;
   background-color: whitesmoke;
   border-radius: 5px;
