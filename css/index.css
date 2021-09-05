@@ -44,4 +44,6 @@ img {
 .index-style {
   width: 300px !important;
   border: dotted 3px black;
+  background-color: blanchedalmond;
+  border-radius: 5px;
 }
