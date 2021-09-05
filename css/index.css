@@ -43,8 +43,12 @@ img {
 }
 
 .index-style {
-  width: 300px !important;
+  width: 15% !important;
   border: dotted 3px black;
-  background-color: blanchedalmond;
+  background-color: whitesmoke;
   border-radius: 5px;
+}
+
+.background-footer {
+  background-color: whitesmoke;
 }
