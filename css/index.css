@@ -25,6 +25,7 @@ a {
 
 .margin-row {
   margin: 15px 0px 0px 0px !important;
+  border-radius: 10px;
 } 
 
 img {
