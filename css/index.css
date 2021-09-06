@@ -1,5 +1,7 @@
 body {
   background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .text-justify {
@@ -25,6 +27,7 @@ a {
 
 .margin-row {
   margin: 15px 0px 0px 0px !important;
+  background-color: whitesmoke;
 } 
 
 img {
@@ -44,5 +47,9 @@ img {
 .index-style {
   width: 300px !important;
   border: dotted 3px black;
+  background-color: whitesmoke;
+}
+
+.background-color {
   background-color: whitesmoke;
 }
