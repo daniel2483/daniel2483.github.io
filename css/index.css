@@ -45,9 +45,13 @@ img {
 }
 
 .index-style {
-  width: 300px !important;
+  
   border: dotted 3px black;
   background-color: whitesmoke;
+}
+
+.index-width {
+  width: 20%;
 }
 
 .background-color {
