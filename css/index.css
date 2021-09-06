@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/background.png);
 }
 
 .text-justify {
@@ -44,4 +44,5 @@ img {
 .index-style {
   width: 300px !important;
   border: dotted 3px black;
+  background-color: whitesmoke;
 }
