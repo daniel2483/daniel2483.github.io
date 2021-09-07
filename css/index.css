@@ -4,6 +4,10 @@ body {
   background-attachment: fixed;
 }
 
+.container {
+  max-width: 90% !important;
+}
+
 .text-justify {
     text-align: justify;
   }
