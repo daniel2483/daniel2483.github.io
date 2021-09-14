@@ -35,8 +35,19 @@ a {
   padding: 40px 90px 0px 90px !important;
 } 
 
+.index-row {
+  margin: 15px 0px 0px 0px !important;
+  background-color: whitesmoke;
+  padding: 40px 90px 0px 90px !important;
+} 
+
 img {
   margin: 10px !important;
+}
+
+code {
+  font-family: 'Courier New' !important;
+  color: lightskyblue;
 }
 
 .code-lines {
