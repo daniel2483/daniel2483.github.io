@@ -47,7 +47,7 @@ img {
 
 code {
   font-family: 'Courier New' !important;
-  color: lightskyblue;
+  color: lightskyblue !important;
 }
 
 .code-lines {
