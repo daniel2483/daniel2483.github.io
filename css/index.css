@@ -30,7 +30,7 @@ a {
 }
 
 .margin-row {
-  margin: 15px 0px 0px 0px !important;
+  /*margin: 15px 0px 0px 0px !important;*/
   background-color: whitesmoke;
   padding: 40px 90px 0px 90px !important;
 } 
