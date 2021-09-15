@@ -5,8 +5,14 @@
 	    <!-- link to main stylesheet -->
 	    <link rel="stylesheet" href="../bootstrap_5_1/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../highlight/styles/default.min.css">
+
+        <!-- Scripts use-->
         <script src="../bootstrap_5_1/js/bootstrap.min.js"></script>
         <script src="../js/file_reader.js"></script>
+        <script src="../highlight/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+
     </head>
 	<body>
         <div class="container">
@@ -105,6 +111,11 @@
                                             <!-- <object data="https://daniel2483.github.io/PythonProjects/Examples/calculate_age.py" width="300" height="200">
                                                 Not supported
                                             </object> -->
+                                            <pre class="pre-scrollable"><code>
+import sys
+from datetime import datetime
+from dateutil.relativedelta import relativedelta</pre></code> 
+
                                             <pre class="pre-scrollable"><div class="div-margin"><p class="code-lines"><code>import</code> sys
 <code>from</code> datetime <code>import</code> datetime
 <code>from</code> dateutil.relativedelta <code>import</code> relativedelta</p></div></pre>
