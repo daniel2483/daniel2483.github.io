@@ -97,7 +97,7 @@
                                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <div class="row text-justify">
-                                            <strong>Description Example: </strong>
+                                            <strong>Description: </strong>
                                             <br>
                                             <br>
                                             <p> On this example, a script ask for Year, month and day of birth, and then the script calculate how
@@ -120,12 +120,29 @@ from dateutil.relativedelta import relativedelta</code></pre>
                                                 to calcute delta time operation values by doing substraction from current date and the date of
                                                 birth set in the program.
                                             </p>
-                                            <p> The following code is to ask about date of birth and store in a variable the year, month and
-                                                day of birth of a person.
+                                            <p> 
+                                                The following code is to ask about date of birth and store in a variable the year, month and
+                                                day of birth of a person. All these values are stored in variables with the same name, to use them
+                                                in the calculation.
                                             </p>
                                             <pre class="pre-scrollable"><code class="language-python">year = input("Year of birth: ")
 month = input("Month of birth: ")
 day = input("Day of birth: ")</code></pre>
+                                            <p>
+                                                After that is important to do data values validation, to prevent in this case values that 
+                                                that aren't a number, in case of month values more than 12 and in finally in case of days 
+                                                values greater than 31.
+                                            </p>
+                                            <pre class="pre-scrollable"><code class="language-python"></code>try:
+    year = int(year)
+    if year < 1:
+    print("Year Value should be a positive integer")
+    errors=errors+1
+except ValueError:
+    print("Year was not provided with good format, should be YYYY. Example: 2014")
+    errors=errors+1
+
+...</pre>
                                             <p>
                                                 You can see the complete code
                                                 <a href="https://github.com/daniel2483/PythonProjects/blob/master/Examples/calculate_age.py" download target="_blank"> here!</a>
