@@ -200,11 +200,28 @@ print("Using exact: You have ",str(rdelta.years)," years"," and ",str(rdelta.mon
                                         <strong>Description: </strong>
                                         <br>
                                         <br>
-                                        <p>On this example we will see how to create a program to draw a diamond figure using
+                                        <p>
+                                            On this example we will see how to create a program to draw a diamond figure using
                                             python code. The first line is to import the math module to be able to do some
                                             math operations.
                                         </p>
 <pre class="pre-scrollable"><code class="language-python">import math</code></pre>
+                                        <p>
+                                            A function was created to determine if a value enter is a odd or a pair, to set 
+                                            the center of the diamond figure.
+                                        </p>
+<pre class="pre-scrollable"><code class="language-python">def check_if_pair(number):
+    test = number%2
+    if test == 0:
+        center = test
+        center = number/2
+        #print (str(center))
+        return center
+    else:
+        center = number/2
+        center = math.floor(center)
+        #print (str(center))
+        return center</code></pre>                   
                                     </div>
                                   </div>
                                 </div>
