@@ -239,6 +239,36 @@ string_lines = ""
 
 counter_line = 1</code></pre>
                                         <p>
+                                            Finally we set the logic to print the figure by each line.
+                                        </p>
+<pre class="pre-scrollable"><code class="language-python">for height_dimension in range(0,height):
+    if counter_heigh == center:
+        #print("*"+str(center))
+        string_lines = ""
+        for width_dimention in range(0,width):
+            string_lines = string_lines + "*"
+        print(string_lines)
+        width_blank = width_blank+1
+    if counter_heigh > center:
+        string_lines = ""
+        for width_dimention in range(0,width_blank):
+            string_lines = string_lines + " "
+        for width_dimention in range(0,(counter_line-2)):
+            string_lines = string_lines + "*"
+        print(string_lines)
+        counter_line= counter_line -2
+        width_blank = width_blank+1
+    if counter_heigh < center:
+        string_lines = ""
+        for width_dimention in range(0,width_blank):
+            string_lines = string_lines + " "
+        for width_dimention in range(0,counter_line):
+            string_lines = string_lines + "*"
+        print(string_lines)
+        counter_line= counter_line +2
+        width_blank = width_blank-1
+    counter_heigh = counter_heigh + 1</code></pre>
+                                        <p>
                                             You can see the complete code
                                             <a href="https://github.com/daniel2483/PythonProjects/blob/master/Examples/drawing_diamond.py" download target="_blank"> here!</a> 
                                             Any donation will be appreciated, you can find the Paypal donation button at the top-right corner.
