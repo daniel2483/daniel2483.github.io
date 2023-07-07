@@ -26,7 +26,7 @@
                     <a href="../">
                         <img src="../images/home_icon_2.png" alt="Return" height="40px" class="justify-content-end">
                     </a>
-                    Examples and Excercises
+                    Examples and Exercises
                 </div>
                 <div class="col-sm-3 d-flex padding-row bg-dark text-light">
                     <form action="https://www.paypal.com/donate" method="post" target="_top">
@@ -112,12 +112,12 @@
                                             <p>
                                                 You can find the complete code <a href="https://github.com/daniel2483/PythonProjects/blob/master/Examples/calculate_age.py" target="_blank">Here</a>.
                                             </p>
-                                            <p> On this example, a script ask for Year, month and day of birth, and then the script calculate how
-                                                many years, months and days you have until the current date (present).
+                                            <p> In this example, a script asks for the Year, month, and day of birth, and then the script calculates how
+                                                many years, months, and days until the current date (present).
                                             </p>
-                                            <p> First we need to import some date modules and a module to
-                                                handle exceptions and exit the program if is necessary. Which means 
-                                                when we don't put correct format in the years, months and day values.
+                                            <p> First we need to import some data modules and a module to
+                                                handle exceptions and exit the program if necessary. Which means 
+                                                when we don't put the correct format in the years, months, and day values.
                                             </p>
                                             <p>So the first line of this example should be:</p>
                                             <!-- <object data="https://daniel2483.github.io/PythonProjects/Examples/calculate_age.py" width="300" height="200">
@@ -127,13 +127,13 @@
 from datetime import datetime
 from dateutil.relativedelta import relativedelta</code></pre>
                                             <p>
-                                                This three lines are to import modules related to system to be able to do exit the program, 
-                                                date time and relative delta time are used to handle date time objects and
-                                                to calcute delta time operation values by doing substraction from current date and the date of
+                                                These three lines are to import modules related to the system to be able to exit the program, 
+                                                date time and relative delta time are used to handle date-time objects and
+                                                to calculate delta time operation values by doing subtraction from the current date and the date of
                                                 birth set in the program.
                                             </p>
                                             <p> 
-                                                The following code is to ask about date of birth and store in a variable the year, month and
+                                                The following code is to ask about the date of birth and store in a variable the year, month and
                                                 day of birth of a person. All these values are stored in variables with the same name, to use them
                                                 in the calculation.
                                             </p>
@@ -142,7 +142,7 @@ month = input("Month of birth: ")
 day = input("Day of birth: ")</code></pre>
                                             <p>
                                                 After that is important to do data values validation, to prevent in this case values that 
-                                                that aren't a number, in case of month values more than 12 and in finally in case of days 
+                                                isn't a number, in case of month values more than 12 and finally in case of days 
                                                 values greater than 31.
                                             </p>
 <pre class="pre-scrollable"><code class="language-python">try:
@@ -172,7 +172,7 @@ days_number = month_n%30
 rdelta = relativedelta(today, birthday)
 </code></pre>
                                             <p>
-                                                This program will return a approximate value and an
+                                                This program will return an approximate value and an
                                                 exact value.
                                             </p>
 <pre class="pre-scrollable"><code class="language-python">
@@ -201,13 +201,13 @@ print("Using exact: You have ",str(rdelta.years)," years"," and ",str(rdelta.mon
                                         <br>
                                         <br>
                                         <p>
-                                            On this example we will see how to create a program to draw a diamond figure using
-                                            python code. The first line is to import the math module to be able to do some
+                                            In this example, we will see how to create a program to draw a diamond figure using
+                                            Python code. The first line is to import the math module to be able to do some
                                             math operations.
                                         </p>
 <pre class="pre-scrollable"><code class="language-python">import math</code></pre>
                                         <p>
-                                            A function was created to determine if a value enter is a odd or a pair, to set 
+                                            A function was created to determine if a value entered is an odd or a pair, to set 
                                             the center of the diamond figure.
                                         </p>
 <pre class="pre-scrollable"><code class="language-python">def check_if_pair(number):
@@ -223,7 +223,7 @@ print("Using exact: You have ",str(rdelta.years)," years"," and ",str(rdelta.mon
         #print (str(center))
         return center</code></pre>         
                                         <p>
-                                            On the following we declare some variables and declare an input. 
+                                            In the following, we declare some variables and claim an input. 
                                             This input will be the width and height of the Diamond figure.
                                         </p>
 
@@ -239,7 +239,7 @@ string_lines = ""
 
 counter_line = 1</code></pre>
                                         <p>
-                                            Finally we set the logic to print the figure by each line.
+                                            Finally, we set the logic to print the figure by each line.
                                         </p>
 <pre class="pre-scrollable"><code class="language-python">for height_dimension in range(0,height):
     if counter_heigh == center:
@@ -271,11 +271,11 @@ counter_line = 1</code></pre>
                                         <p>
                                             This is a result of running the python code:
                                         </p>
-                                        <img src="../images/image-examples/example_1_drawing_diamond_in_out.jpg" alt="Example 2 - Drawing a Diamond">
+                                        <img src="../images/image-examples/example_1_drawing_diamond_in_out.jpg" alt="Example 2 - Drawing a Diamond" sytle="background-size:cover">
                                         <p>
                                             You can see the complete code
                                             <a href="https://github.com/daniel2483/PythonProjects/blob/master/Examples/drawing_diamond.py" download target="_blank"> here!</a> 
-                                            Any donation will be appreciated, you can find the Paypal donation button at the top-right corner.
+                                            I would appreciate any donation you can find the Paypal donation button at the top-right corner.
                                         </p>          
                                     </div>
                                   </div>
@@ -295,8 +295,8 @@ counter_line = 1</code></pre>
                                             This example doesn't need any module to be imported. The two first line is to get the
                                             height and weight of the rectangle figure.
                                         </p>
-<pre class="pre-scrollable"><code class="language-python">height = int(input("Enter the height of rectangule (must be an integer): "))
-width = int(input("Enter the width of rectangule (must be an integer): "))</code></pre>
+<pre class="pre-scrollable"><code class="language-python">height = int(input("Enter the height of rectangle (must be an integer): "))
+width = int(input("Enter the width of rectangle (must be an integer): "))</code></pre>
                                         <p>
                                             Then a set of variables needs to be created to run an algorithm.
                                         </p>
@@ -308,8 +308,8 @@ string_other_line = ""
 counter_line = 0</code></pre>
                                         <p>
                                             The first variable called <code>counter_height</code>, is used to 
-                                            keep the count of the height of the rectangle. In case of the variable
-                                            <code>string_first_line</code>, is to defined is a line is 
+                                            keep the count of the height of the rectangle. In the case of the variable
+                                            <code>string_first_line</code>, is to define is a line is 
                                             the first one, or if we are in another line in the rectangle.
                                             For the variable <code>string_other_line</code>
                                         </p>
@@ -320,7 +320,7 @@ counter_line = 0</code></pre>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                          Example #4 - Even Numbers from list
+                                          Example #4 - Even Numbers from the list
                                       </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -329,7 +329,7 @@ counter_line = 0</code></pre>
                                           <br>
                                           <br>
                                           <p>
-                                              On this program, we determine which numbers on a list are even or odd.
+                                              In this program, we determine which numbers on a list are even or odd.
                                           </p>
   <pre class="pre-scrollable"><code class="language-python"></code>
   </pre>
@@ -397,7 +397,7 @@ counter_line = 0</code></pre>
                         <!-- <div class="row margin-row">
                             <div class="col-sm-12 d-flex justify-content-center fw-bold bg-dark text-light display-4">
                                 <img src="../images/python_logo.png" alt="" height="55px">
-                                Ruby Examples and Excercises
+                                Ruby Examples and Exercises
                             </div>
                         </div> -->
             
